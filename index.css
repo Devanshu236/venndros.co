@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top:0;
+    height: 65px;
+}
+.navbar ul{
+    margin: 0px 0px;
+
+}
+.nav-list{
+    display: flex;
+    width: 100%;
+    background-color:  rgb(0 0 0);
+
+}
+
+.nav-list li a{
+    color:rgba(255, 255, 255, 0.986);
+    text-decoration: none;
+    padding: 55px;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Merienda', cursive;
+
+}
+.nav-list li a:hover{
+    color: rgb(77, 75, 75);
+    transform: scale(0.5);
+    
+}
+
+.nav-list li{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right{
+    margin: 0px -2px -0px -5px;
+    
+    
+    background-color: rgb(0, 0, 0);
+}
+.logo img{
+    height: 43px;
+    width: 43px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 4px 16px 0px;
+    padding: 0px;
+}
+.home::before{
+    content: " ";
+    position: absolute;
+    background: url('pexels-anton-uniqueton-4021262.jpg') no-repeat center center/cover ;
+    height: 81%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top:54px;
+}
+
+
+
+.container{
+    margin: 400px 0px 0px 0px;
+    width: 50%;
+    margin: auto;
+
+    top:150px;
+}
+.headings{
+    margin:165px 0px 0px 0px;
+}
+.heading{
+    font-size: 3.1rem;
+    font-weight: 200;
+    color:rgba(255, 255, 255, 0.986);
+    transition: all 0.5s ;
+    transition: transform .2s ease-in-out;
+    font-family: 'Merienda', cursive;
+
+}
+ .heading:hover{
+     color: rgb(16, 16, 17);
+     transform: scale(1.5);
+ }
+
+.defi{
+    font-size: 1.8rem;
+    font-weight: 130;
+    color:rgba(255, 255, 255, 0.986);
+    transition: transform .2s ease-in-out;
+    font-family: 'Merienda', cursive;
+}
+.defi:hover{
+    color: rgb(16, 16, 17);
+     transform: scale(1.1);
+
+}
+
+     button{
+    background: none;
+    height: 58px;
+    width: 130px;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin: 33px 0px 0px 404px;
+    font-size: 1.1rem;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.986);
+}
+
+button:hover{
+    color: rgb(56, 53, 53);
+}
+
+.scontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:350px 0px 0px 0px;
+}
+ .boxes{
+     display: flex;
+     border: 2px  rgb(128, 123, 123);
+     height: 200px;
+     width: 200px;
+     padding: 84px;
+ }
+
+ .apnafooter{
+     background-color: rgb(39, 38, 38);
+     height: 80px;
+     color: aliceblue;
+     
+    
+     position: relative;
+     font-family: 'Merienda', cursive;
+    
+ }
+
+ .cc{
+     top: 20px;
+     margin: 40px 0px 0px 0p ;
+     
+     text-align: center;
+     font-size: large;
+
+ }
+ 
+ 
+
